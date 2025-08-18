@@ -20,3 +20,23 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+.home-info-head{
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.home-info-text{
+  left: 50%;
+  top: 68%;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.img{
+  top: 80%
+}
