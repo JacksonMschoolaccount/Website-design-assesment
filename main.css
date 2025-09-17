@@ -2,10 +2,9 @@ body, html {
   height: 100%;
   background-color: brown;
 }
-
-.hero-image {
-  background-image: url("resources/20240626_111923.jpg");
-  height: 50%;
+header {height: 50%;
+width: 100%;
+background-image: url("resources/20240626_111923.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +27,7 @@ body, html {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
 }
 .home-info-text{
   left: 50%;
@@ -36,53 +35,45 @@ body, html {
   text-align: center;
   position: absolute;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
 }
 .img-area{
-  top: 85%;
-  left: 50%;
-  text-align: center;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background-color: darkred;
-  width: 100%;
-  height: 20%;
+display: flex;
+padding-top: 15%;
+
 }
-.img1{
-  width: 15%;
-  height: 100%;
-  top: 95%;
+.img1 img{
+  max-width: auto;
+  max-height: 500px;
+}
+.img2 img{
+  max-width: auto;
+  max-height: 500px;
+  padding-left: 10%;
+}
+.img3 img{
+  max-width: auto;
+  max-height: 500px;
+  padding-left: 20%;
 }
 .buttons{
-  top: 150%;
+  top: 115%;
   width: 96.5%;
   height: 20px;
   text-align: center;
   position: absolute;
 }
-.B1{
-  top: 99%;
-  right: 74%;
-  text-align: center;
-  position: absolute;
-  width: 160px;
-  height: 140px;
-  background-color:darkgreen;
-  
-}
-.B2{
-  top: 99%;
-  left: 77%;
-  text-align: center;
-  position: absolute;
-  width: 160px;
-  height: 140px;
-  background-color:darkgreen
-}
+
 ::-webkit-scrollbar {
   display:none;
 }
 a:link, a:visited {
   color: aquamarine;
   text-decoration: none;
+}
+.nav {
+  background-color: black;
+}
+.bottom-bar-thingy {
+  background-color: white;
 }
